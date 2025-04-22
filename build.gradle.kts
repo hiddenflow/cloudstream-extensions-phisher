@@ -36,7 +36,7 @@ subprojects {
 
     cloudstream {
         setRepo("https://github.com/hiddenflow/cloudstream-extensions-phisher")
-        authors = listOf("Phisher98")
+        authors = listOf("hiddenflow")
     }
 
     android {
