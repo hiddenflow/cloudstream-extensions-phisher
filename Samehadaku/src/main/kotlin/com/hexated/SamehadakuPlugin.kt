@@ -1,6 +1,7 @@
 
 package com.hexated
 
+import com.lagradost.cloudstream3.extractors.Acefile
 import com.lagradost.cloudstream3.extractors.Gofile
 import com.lagradost.cloudstream3.extractors.Krakenfiles
 import com.lagradost.cloudstream3.plugins.CloudstreamPlugin
@@ -15,5 +16,6 @@ class SamehadakuPlugin: Plugin() {
 
         registerExtractorAPI(Gofile())
         registerExtractorAPI(Krakenfiles())
+        registerExtractorAPI(Acefile())
     }
 }
