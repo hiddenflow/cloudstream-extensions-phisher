@@ -196,6 +196,8 @@ class Samehadaku : MainAPI() {
             "4K" -> Qualities.P2160.value
             "FULLHD" -> Qualities.P1080.value
             "MP4HD" -> Qualities.P720.value
+            "480p" -> Qualities.P480.value
+            "360p" -> Qualities.P360.value
             else -> this.filter { it.isDigit() }.toIntOrNull() ?: Qualities.Unknown.value
         }
     }
